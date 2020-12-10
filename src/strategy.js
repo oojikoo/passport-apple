@@ -80,7 +80,7 @@ function Strategy(options, verify) {
                 'Content-Type': 'application/x-www-form-urlencoded'
             };
             this._request(
-                'POST',
+                'GET',
                 this._getAccessTokenUrl(),
                 post_headers,
                 post_data,
